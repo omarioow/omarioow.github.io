@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif; 
+
+h1, h2, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+header {
+    h1 {
+        padding-top: 40px;
+    }
+    
+    p {
+        padding-top: 60px;
+        font-size: 30px;
+    }
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333; 
+}
+
+nav {
+    font-weight: bold;
+    background-color: #ffb3c8; 
+    color: #fff; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+footer {
+    background-color: #ffb3c8;
+    color: #fff; 
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media (min-width: 769px) {
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+    }
+
+    header .apresentacao {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    header .apresentacao img {
+        margin-right: 20px;
+    }
+
+    #educacao, #certificacoes, #experiencia {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+a {
+    color: #c47690;
+}
+a:visited {
+    color: #884059;
+}
